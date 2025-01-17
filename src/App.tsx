@@ -8,6 +8,7 @@ import { AppSidebar } from "@/components/AppSidebar";
 import { Header } from "@/components/Header";
 import Index from "./pages/Index";
 import PlayerPerformance from "./pages/PlayerPerformance";
+import Ticketing from "./pages/Ticketing";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
                 <Routes>
                   <Route path="/" element={<Index />} />
                   <Route path="/player-performance" element={<PlayerPerformance />} />
+                  <Route path="/ticketing" element={<Ticketing />} />
                 </Routes>
               </main>
             </div>
