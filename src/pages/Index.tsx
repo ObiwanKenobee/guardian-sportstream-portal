@@ -1,6 +1,7 @@
 import { BarChart3, Users, Trophy, DollarSign } from "lucide-react";
 import { MetricCard } from "@/components/MetricCard";
 import { ActivityFeed } from "@/components/ActivityFeed";
+import { Card } from "@/components/ui/card";
 
 const Index = () => {
   return (
